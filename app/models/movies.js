@@ -2,6 +2,7 @@ import mongoose from "mongoose";
 
 const Schema = mongoose.Schema;
 
+//JSON Parameters
 const MovieSchema = new Schema({
     name: String,
     year: String,

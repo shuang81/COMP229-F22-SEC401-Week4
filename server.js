@@ -50,4 +50,5 @@ app.use(session({
 //Use Routes
 app.use('/', indexRouter);
 app.use('/', movieRouter);
+
 app.listen(3000);
