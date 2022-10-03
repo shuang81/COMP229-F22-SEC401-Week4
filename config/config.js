@@ -1,2 +1,2 @@
 export const Secret = "MySecret";
-export const MongoURI = "mongodb://localhost/media";
+export const MongoURI = "mongodb://localhost/movies";
