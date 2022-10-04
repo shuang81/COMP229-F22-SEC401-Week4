@@ -31,7 +31,7 @@ db.on('open', () => console.log("Connected to MongoDB"));
 db.on('error', () => console.log("Mongo connection Error"));
 
 //Setup Middleware
-app.set('views', path.join(__dirname, '../COMP229-WEEK4/app/views'));
+app.set('views', path.join(__dirname, '../COMP229-WEEK5/app/views'));
 
 //Setup ViewEngine EJS
 app.set('view engine', 'ejs');
